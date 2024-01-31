@@ -16,7 +16,7 @@ jobs:
     - name: Build and test
       run: |
         # Your build and test commands here
-      working-directory: ./images/apple-touch-icon.png
+      working-directory: ./images
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
